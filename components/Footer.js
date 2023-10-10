@@ -12,7 +12,7 @@ export default function Footer() {
                   <div className="col-md-4">
                     <div className="logo">
                       <a href="index.html">
-                        <img src="assets/img/logo/w_logo.svg" alt="" />
+                        <img src="img/logo/w_logo.svg" alt="" />
                       </a>
                     </div>
                   </div>
