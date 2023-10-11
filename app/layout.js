@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import Navbar from '@/components/Navbar'
+import Script from 'next/script'
+
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,6 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta charSet="utf-8"/>
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/magnific-popup.css"/>
@@ -29,10 +33,28 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
       </head>
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
       <Header/>
-      <Navbar/>
+      {children}
       <Footer/>
+
+      <Script src="js/vendor/jquery-3.6.0.min.js"/>
+      <Script src="js/bootstrap.min.js"/>
+      <Script src="js/jquery.magnific-popup.min.js"/>
+      <Script src="js/jquery.odometer.min.js"/>
+      <Script src="js/BeerSlider.js"/>
+      <Script src="js/jquery.appear.js"/>
+      <Script src="js/swiper-bundle.min.js"/>
+      <Script src="js/jarallax.min.js"/>
+      <Script src="js/slick.min.js"/>
+      <Script src="js/gsap.js"/>
+      <Script src="js/ScrollTrigger.js"/>
+      <Script src="js/SplitText.js"/>
+      <Script src="js/gsap-animation.js"/>
+      <Script src="js/tg-cursor.min.js"/>
+      <Script src="js/wow.min.js"/>
+      <Script src="js/aos.js"/>
+      <Script src="js/main.js"/>
       </body>
     </html>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import MainLogo from '../public/img/logo/logo.svg'
 
 export default function HeaderLogo() {
@@ -10,9 +11,9 @@ export default function HeaderLogo() {
             <div className="row">
               <div className="col-xl-4 col-lg-3">
                 <div className="logo">
-                  <a href="index.html">
-                    <Image src={MainLogo} alt="Logo" />
-                  </a>
+                  <Link href="/" passHref>
+                    <Image src={MainLogo} alt="Logo"  />
+                  </Link>
                 </div>
               </div>
               <div className="col-xl-8 col-lg-9">
