@@ -505,6 +505,7 @@ label {
 	transition: .4s;
 	opacity: 0;
 }
+
 .navbar-wrap > ul > li > a:hover::before,
 .navbar-wrap > ul > li.active > a::before {
 	opacity: 1;

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -11,26 +12,19 @@ export default function Footer() {
                 <div className="row align-items-center">
                   <div className="col-md-4">
                     <div className="logo">
-                      <a href="index.html">
+                      <Link href="/" passHref>
                         <img src="img/logo/w_logo.svg" alt="" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="footer-social-menu">
                       <ul className="list-wrap">
-                        <li>
-                          <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                          <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                          <a href="#">LinkedIn</a>
-                        </li>
-                        <li>
-                          <a href="#">Instagram</a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref>Facebook</Link></li>
+                        <li><Link href="https://twitter.com/" passHref>Twitter</Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref>Instagram</Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref>LinkedIn</Link></li>
+                        <li><Link href="https://www.youtube.com/" passHref>Youtube</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -51,7 +45,7 @@ export default function Footer() {
                             <a href="tel:0123456789">1-888-452-1505</a>
                           </li>
                           <li className="email-addess">
-                            <a href="mailto:Envato@gmail.com">Envato@gmail.com</a>
+                            <a href="#">cleantac@gmail.com</a>
                           </li>
                         </ul>
                       </div>

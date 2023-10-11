@@ -9,8 +9,7 @@ export default function HeaderTop() {
               <div className="col-lg-6">
                 <div className="header-top-left">
                   <span>
-                    <i className="fas fa-fire-alt" /> best cleaning company website
-                    forever!
+                    <i className="fas fa-fire-alt" /> Best Cleaning Company Website
                   </span>
                 </div>
               </div>

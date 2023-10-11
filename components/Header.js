@@ -45,31 +45,14 @@ export default function Header() {
                         </Link>
                     </div>
                     <div className="menu-outer">
-                      {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
                     </div>
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
-                        <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube" />
-                          </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
+                        <li><Link href="https://www.youtube.com/" passHref><i className="fab fa-youtube" /></Link></li>
                       </ul>
                     </div>
                   </nav>
@@ -79,41 +62,6 @@ export default function Header() {
             </div>
           </div>
         </div>
-        
-        <div
-          className="search-popup-wrap"
-          tabIndex={-1}
-          role="dialog"
-          aria-hidden="true"
-        >
-          <div className="search-close">
-            <span>
-              <i className="fas fa-times" />
-            </span>
-          </div>
-          <div className="search-wrap text-center">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <h2 className="title">... Search Here ...</h2>
-                  <div className="search-form">
-                    <form action="#">
-                      <input
-                        type="text"
-                        name="search"
-                        placeholder="Type keywords here"
-                      />
-                      <button className="search-btn">
-                        <i className="fas fa-search" />
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
     </header>
     </>
   )
