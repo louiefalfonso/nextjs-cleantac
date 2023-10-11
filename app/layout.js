@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Script from 'next/script'
 
 import { Inter } from 'next/font/google'
+import ScrollTop from '@/components/ScrollTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
       <Header/>
+      <ScrollTop/>
       {children}
       <Footer/>
 
