@@ -13,6 +13,9 @@ export default function Navbar() {
           <li className={pathname == "/" ? "active" : ""} ><Link href="/" passHref>Home</Link></li>
           <li className={pathname == "/aboutus" ? "active" : ""}><Link href="/aboutus" passHref>About Us</Link></li>
           <li className={pathname == "/services" ? "active" : ""}><Link href="/services" passHref>Services</Link></li>
+          <li className={pathname == "/projects" ? "active" : ""}><Link href="/projects" passHref>Projects</Link></li>
+          <li className={pathname == "/teams" ? "active" : ""}><Link href="/teams" passHref>Teams</Link></li>
+          <li className={pathname == "/faq" ? "active" : ""}><Link href="/faq" passHref>FAQ</Link></li>
           <li className={pathname == "/contactus" ? "active" : ""}><Link href="/contactus" passHref>Contact Us</Link></li>
       </ul>
     </div>
