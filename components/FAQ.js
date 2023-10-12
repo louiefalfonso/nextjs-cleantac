@@ -25,7 +25,7 @@ export default function FAQ() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                         >
-                        How stay calm from the first time.
+                        What days and hours can I have my home cleaned?
                         </button>
                     </h2>
                     <div
@@ -53,7 +53,7 @@ export default function FAQ() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                         >
-                        Our proprietary enables quality.
+                        Do I need to be at home during the cleaning services?
                         </button>
                     </h2>
                     <div
@@ -81,7 +81,7 @@ export default function FAQ() {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                         >
-                        Locate Clean UK Office Near You.
+                        How will I recognise your staff?
                         </button>
                     </h2>
                     <div
@@ -109,7 +109,7 @@ export default function FAQ() {
                         aria-expanded="false"
                         aria-controls="collapseFour"
                         >
-                        Visit our office and see services.
+                        And will they wear their outside shoes in my home?
                         </button>
                     </h2>
                     <div
@@ -137,7 +137,7 @@ export default function FAQ() {
                         aria-expanded="false"
                         aria-controls="collapseFive"
                         >
-                        Visit our office and see services.
+                        Do you bring all your own equipment and supplies?
                         </button>
                     </h2>
                     <div
@@ -165,7 +165,7 @@ export default function FAQ() {
                         aria-expanded="false"
                         aria-controls="collapseSix"
                         >
-                        Visit our office and see services.
+                        So what equipment do you use?
                         </button>
                     </h2>
                     <div
