@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="css/aos.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
+        
       </head>
       <body className={inter.className}>
       <Header/>
@@ -40,23 +41,23 @@ export default function RootLayout({ children }) {
       {children}
       <Footer/>
 
-      <Script src="js/vendor/jquery-3.6.0.min.js"/>
-      <Script src="js/bootstrap.min.js"/>
-      <Script src="js/jquery.magnific-popup.min.js"/>
-      <Script src="js/jquery.odometer.min.js"/>
-      <Script src="js/BeerSlider.js"/>
-      <Script src="js/jquery.appear.js"/>
-      <Script src="js/swiper-bundle.min.js"/>
-      <Script src="js/jarallax.min.js"/>
-      <Script src="js/slick.min.js"/>
-      <Script src="js/gsap.js"/>
-      <Script src="js/ScrollTrigger.js"/>
-      <Script src="js/SplitText.js"/>
-      <Script src="js/gsap-animation.js"/>
-      <Script src="js/tg-cursor.min.js"/>
-      <Script src="js/wow.min.js"/>
-      <Script src="js/aos.js"/>
-      <Script src="js/main.js"/>
+      <Script type="text/javascript" src="js/vendor/jquery-3.6.0.min.js"/>
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"/>
+      <Script type="text/javascript" src="js/jquery.magnific-popup.min.js"/>
+      <Script type="text/javascript" src="js/jquery.odometer.min.js"/>
+      <Script type="text/javascript" src="js/BeerSlider.js"/>
+      <Script type="text/javascript" src="js/jquery.appear.js"/>
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"/>
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.1.4/jarallax.min.js"/>
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"/>
+      <Script type="text/javascript" src="js/gsap.js"/>
+      <Script type="text/javascript" src="js/ScrollTrigger.js"/>
+      <Script type="text/javascript" src="js/SplitText.js"/>
+      <Script type="text/javascript" src="js/gsap-animation.js"/>
+      <Script type="text/javascript" src="js/tg-cursor.min.js"/>
+      <Script type="text/javascript" src="js/wow.min.js"/>
+      <Script type="text/javascript" src="js/aos.js"/>
+      <Script type="text/javascript" src="js/main.js"/>
       </body>
     </html>
   )
