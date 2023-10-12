@@ -59,21 +59,12 @@ export default function Footer() {
                     </div>
                     <div className="fw-link-list">
                       <ul className="list-wrap">
-                        <li>
-                          <a href="about.html">About</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Meet Our Team</a>
-                        </li>
-                        <li>
-                          <a href="contact.html">What We Do</a>
-                        </li>
-                        <li>
-                          <a href="blog.html">News</a>
-                        </li>
-                        <li>
-                          <a href="contact.html">Contact</a>
-                        </li>
+                        <li><Link href="/aboutus" passHref>About</Link></li>
+                        <li><Link href="/teams" passHref>Meet Our Team</Link></li>
+                        <li><Link href="/services" passHref>Our Services</Link></li>
+                        <li><Link href="/projects" passHref>Latest Projects</Link></li>
+                        <li><Link href="/faq" passHref>Frequently Asked Questions</Link></li>
+                        <li><Link href="/contactus" passHref>Contact Us</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -134,20 +125,15 @@ export default function Footer() {
                 <div className="col-lg-6 col-md-7">
                   <div className="copyright-text">
                     <p>
-                      2023 <a href="index.html">Clentac.</a> All Rights Reserved by
-                      Profile Name.
+                      2023 <Link href="/" passHref>Clentac.</Link> All Rights Reserved.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-5">
                   <div className="footer-bottom-menu">
                     <ul className="list-wrap">
-                      <li>
-                        <a href="contact.html">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a href="contact.html">Terms &amp; Conditions</a>
-                      </li>
+                      <li><Link href="/contactus" passHref>Privacy Policy</Link></li>
+                      <li><Link href="/contactus" passHref>Terms &amp; Conditions</Link></li>
                     </ul>
                   </div>
                 </div>
