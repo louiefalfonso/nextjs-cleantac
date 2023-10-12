@@ -32,8 +32,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="css/default.css"/>
         <link rel="stylesheet" href="css/aos.css"/>
         <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        
+        <link rel="stylesheet" href="css/responsive.css"/>        
       </head>
       <body className={inter.className}>
       <Header/>

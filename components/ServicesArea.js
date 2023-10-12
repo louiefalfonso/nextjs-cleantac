@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServicesArea() {
   return (
@@ -43,7 +44,7 @@ export default function ServicesArea() {
           </div>
           <div className="services-content-two">
             <h2 className="title">
-              <a href="services-details.html">Outdoor Service</a>
+              <Link href="/services" passHref>Outdoor Service</Link>
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse
@@ -124,7 +125,7 @@ export default function ServicesArea() {
           </div>
           <div className="services-content-two">
             <h2 className="title">
-              <a href="services-details.html">House Cleaning</a>
+              <Link href="/services" passHref>House Cleaning</Link>
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse
@@ -169,7 +170,7 @@ export default function ServicesArea() {
           </div>
           <div className="services-content-two">
             <h2 className="title">
-              <a href="services-details.html">Outdoor Service</a>
+              <Link href="/services" passHref>Plumbing Cleaning</Link>
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse
