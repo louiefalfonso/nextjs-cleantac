@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function TeamMembers() {
   return (
@@ -50,9 +51,7 @@ export default function TeamMembers() {
             </div>
             <div className="col-lg-6 col-md-4">
                 <div className="all-btn text-end mb-50">
-                <a href="team.html" className="btn">
-                    see all
-                </a>
+                    <Link href="/teams" passHref className="btn">See All</Link>
                 </div>
             </div>
             </div>
@@ -60,13 +59,13 @@ export default function TeamMembers() {
             <div className="col-lg-4 col-md-6 col-sm-9">
                 <div className="team-item">
                 <div className="team-thumb">
-                    <a href="team-details.html">
-                    <img src="img/team/team_img01.jpg" alt="" />
-                    </a>
+                    <Link href="/teams" passHref>
+                        <img src="img/team/team_img01.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="team-content">
                     <h3 className="title">
-                    <a href="team-details.html">Serhii Ivanenko</a>
+                        <Link href="/teams" passHref>Serhii Ivanenko</Link>
                     </h3>
                     <span>Office Cleaner</span>
                     <div className="team-social">
@@ -74,26 +73,10 @@ export default function TeamMembers() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -101,14 +84,12 @@ export default function TeamMembers() {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-9">
                 <div className="team-item">
-                <div className="team-thumb">
-                    <a href="team-details.html">
-                    <img src="img/team/team_img02.jpg" alt="" />
-                    </a>
-                </div>
+                    <div className="team-thumb">
+                            <Link href="/teams" passHref><img src="img/team/team_img02.jpg" alt="" /></Link>
+                    </div>
                 <div className="team-content">
                     <h3 className="title">
-                    <a href="team-details.html">William Adams</a>
+                        <Link href="/teams" passHref>William Adams</Link>
                     </h3>
                     <span>Window Cleaner</span>
                     <div className="team-social">
@@ -116,26 +97,10 @@ export default function TeamMembers() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -144,13 +109,13 @@ export default function TeamMembers() {
             <div className="col-lg-4 col-md-6 col-sm-9">
                 <div className="team-item">
                 <div className="team-thumb">
-                    <a href="team-details.html">
-                    <img src="img/team/team_img03.jpg" alt="" />
-                    </a>
+                    <Link href="/teams" passHref>
+                        <img src="img/team/team_img03.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="team-content">
                     <h3 className="title">
-                    <a href="team-details.html">Dianne Russel</a>
+                        <Link href="/teams" passHref>Dianne Russel</Link>
                     </h3>
                     <span>House Cleaner</span>
                     <div className="team-social">
@@ -158,26 +123,10 @@ export default function TeamMembers() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>

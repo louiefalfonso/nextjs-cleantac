@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import IntroductionArea from '@/components/IntroductionArea'
 import AboutArea from '@/components/AboutArea'
 import ServiceArea from '@/components/ServiceArea'
 import VideoArea from '@/components/VideoArea'
@@ -16,7 +15,7 @@ export default function page() {
         <div className="row">
           <div className="col-lg-12">
             <div className="breadcrumb-content">
-              <h2 className="title">About us</h2>
+              <h2 className="title">About Us</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
