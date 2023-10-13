@@ -42,7 +42,7 @@ export default function Footer() {
                         <ul className="list-wrap">
                           <li className="phone-addess">
                             <i className="fas fa-phone-alt" />
-                            <a href="tel:0123456789">1-888-452-1505</a>
+                            <a href="tel:0123456789">1-888-1234-5678</a>
                           </li>
                           <li className="email-addess">
                             <a href="#">cleantac@gmail.com</a>
