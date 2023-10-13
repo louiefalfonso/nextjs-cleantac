@@ -32,7 +32,8 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="css/default.css"/>
         <link rel="stylesheet" href="css/aos.css"/>
         <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>        
+        <link rel="stylesheet" href="css/responsive.css"/>    
+            
       </head>
       <body className={inter.className}>
       <Header/>
@@ -57,7 +58,7 @@ export default function RootLayout({ children }) {
       <Script type="text/javascript" src="js/wow.min.js"/>
       <Script type="text/javascript" src="js/aos.js"/>
       <Script type="text/javascript" src="js/main.js"/>
-      <Script type="text/javascript" src="https://unpkg.com/default-passive-events"/>
+      
       </body>
     </html>
   )
