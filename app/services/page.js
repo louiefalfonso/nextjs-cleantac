@@ -1,6 +1,5 @@
 import React from 'react'
-import Link
- from 'next/link'
+import Link from 'next/link'
 import BrandArea from '@/components/BrandArea'
 import IntroductionArea from '@/components/IntroductionArea'
 import ServicesBlock from '@/components/ServicesBlock'

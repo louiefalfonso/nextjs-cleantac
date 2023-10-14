@@ -1,4 +1,5 @@
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 export default function page() {
   return (
     <>
@@ -7,14 +8,14 @@ export default function page() {
         <div className="row">
           <div className="col-lg-12">
             <div className="breadcrumb-content">
-              <h2 className="title">Kitchen Cleaning</h2>
+              <h2 className="title">Window Cleaning</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link href="/" passHref>Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Kitchen Cleaning
+                    Window Cleaning
                   </li>
                 </ol>
               </nav>
@@ -29,7 +30,7 @@ export default function page() {
           <div className="col-lg-8 order-0 order-lg-2">
             <div className="services-details-wrap">
               <div className="services-details-thumb">
-                <img src="img/project/project_img06-450x360.webp" alt="" />
+                <img src="img/project/project_img13-450x360.webp" alt="" />
               </div>
               <div className="services-details-content">
                 <h2 className="title">We give the best Services</h2>
@@ -82,14 +83,10 @@ export default function page() {
                 <div className="services-cat-list">
                   <h4 className="title">All Services</h4>
                   <ul className="list-wrap">
+                    <li><Link href="/kitchen-cleaning" passHref>Kitchen Cleaning</Link></li>
+                    <li><Link href="/window-cleaning" passHref className="active">Window Cleaning</Link></li>
                     <li>
-                      <a href="#" className="active">Kitchen Cleaning</a>
-                    </li>
-                    <li>
-                      <a href="#">Window Cleaning</a>
-                    </li>
-                    <li>
-                      <a href="#">Cleaning</a>
+                      <a href="#">Plumbing Service</a>
                     </li>
                     <li>
                       <a href="#">Laundry Services</a>

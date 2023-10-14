@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServicesBlock() {
   return (
@@ -569,7 +570,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Kitchen Cleaning</a>
+                        <Link href="/kitchen-cleaning" passHref>Kitchen Cleaning</Link>
                         </h2>
                     </div>
                     <p>
