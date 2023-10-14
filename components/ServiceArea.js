@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServiceArea() {
   return (
@@ -52,9 +53,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img06.jpg" alt="" />
-                    </a>
+                    <Link href="/plumbing-service" passHref>
+                        <img src="img/images/services_img06.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -70,7 +71,7 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Plumbing Service</a>
+                    <Link href="/plumbing-service" passHref>Plumbing Service</Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla
@@ -82,9 +83,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img01.jpg" alt="" />
-                    </a>
+                    <Link href="/office-cleaning" passHref>
+                        <img src="img/images/services_img01.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -268,7 +269,9 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Office Cleaning</a>
+                        <Link href="/office-cleaning" passHref>
+                            Office Cleaning
+                        </Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla
@@ -280,9 +283,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img02.jpg" alt="" />
-                    </a>
+                    <Link href="/laundry-service" passHref>
+                        <img src="img/images/services_img02.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -342,7 +345,9 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Laundry Service</a>
+                    <Link href="/laundry-service" passHref>
+                        Laundry Service
+                    </Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla
@@ -354,9 +359,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img03.jpg" alt="" />
-                    </a>
+                    <Link href="/kitchen-cleaning" passHref>
+                        <img src="img/images/services_img03.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -533,7 +538,9 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Kitchen Cleaning</a>
+                    <Link href="/kitchen-cleaning" passHref>
+                        Kitchen Cleaning
+                    </Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla
@@ -545,9 +552,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img05.jpg" alt="" />
-                    </a>
+                    <Link href="/window-cleaning" passHref>
+                        <img src="img/images/services_img05.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -657,7 +664,9 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Window Cleaning</a>
+                    <Link href="/window-cleaning" passHref>
+                        Window Cleaning
+                    </Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla
@@ -669,9 +678,9 @@ export default function ServiceArea() {
             <div className="col">
                 <div className="services-item-four">
                 <div className="services-thumb-four">
-                    <a href="services-details.html">
-                    <img src="img/images/services_img04.jpg" alt="" />
-                    </a>
+                    <Link href="/toilet-cleaning" passHref >
+                        <img src="img/images/services_img04.jpg" alt="" />
+                    </Link>
                 </div>
                 <div className="services-content-four">
                     <div className="services-icon">
@@ -703,7 +712,9 @@ export default function ServiceArea() {
                     </svg>
                     </div>
                     <h3 className="title">
-                    <a href="services-details.html">Lavatory Cleaning</a>
+                        <Link href="/toilet-cleaning" passHref >
+                            Toilet Cleaning
+                        </Link>
                     </h3>
                     <p>
                     Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla

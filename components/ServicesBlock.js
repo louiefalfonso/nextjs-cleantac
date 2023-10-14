@@ -80,7 +80,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Plumbing Service</a>
+                        <Link href="/plumbing-service" passHref>Plumbing Service</Link>
                         </h2>
                     </div>
                     <p>
@@ -287,7 +287,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Office Cleaning</a>
+                            <Link href="/office-cleaning" passHref>Office Cleaning</Link>
                         </h2>
                     </div>
                     <p>
@@ -370,7 +370,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Laundry Service</a>
+                            <Link href="/laundry-service" passHref>Laundry Services</Link>
                         </h2>
                     </div>
                     <p>
@@ -703,7 +703,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Window Cleaning</a>
+                            <Link href="/window-cleaning" passHref>Window Cleaning</Link>
                         </h2>
                     </div>
                     <p>
@@ -758,7 +758,7 @@ export default function ServicesBlock() {
                         </svg>
                         </div>
                         <h2 className="title">
-                        <a href="services-details.html">Toilet Cleaning</a>
+                            <Link href="/toilet-cleaning" passHref >Toilet Cleaning</Link>
                         </h2>
                     </div>
                     <p>

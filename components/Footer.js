@@ -76,24 +76,12 @@ export default function Footer() {
                     </div>
                     <div className="fw-link-list">
                       <ul className="list-wrap">
-                        <li>
-                          <a href="services.html">Apartment Cleaning</a>
-                        </li>
-                        <li>
-                          <a href="services.html">House Cleaning</a>
-                        </li>
-                        <li>
-                          <a href="services.html">Carpet Cleaning</a>
-                        </li>
-                        <li>
-                          <a href="services.html">After Renovation</a>
-                        </li>
-                        <li>
-                          <a href="services.html">Curtain Cleaning</a>
-                        </li>
-                        <li>
-                          <a href="services.html">Window Cleaning</a>
-                        </li>
+                        <li><Link href="/kitchen-cleaning" passHref>Kitchen Cleaning</Link></li>
+                        <li><Link href="/window-cleaning" passHref>Window Cleaning</Link></li>
+                        <li><Link href="/plumbing-service" passHref>Plumbing Service</Link></li>
+                        <li><Link href="/laundry-service" passHref>Laundry Services</Link></li>
+                        <li><Link href="/office-cleaning" passHref>Office Cleaning</Link></li>
+                        <li><Link href="/toilet-cleaning" passHref >Toilet Cleaning</Link></li>
                       </ul>
                     </div>
                   </div>

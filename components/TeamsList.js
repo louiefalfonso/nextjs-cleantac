@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function TeamsList() {
   return (
@@ -23,26 +24,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -65,26 +50,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -107,26 +76,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -149,26 +102,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -191,26 +128,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -233,26 +154,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -275,26 +180,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -317,26 +206,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
@@ -359,26 +232,10 @@ export default function TeamsList() {
                         <i className="fas fa-share-alt" />
                     </span>
                     <ul className="list-wrap">
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        </li>
+                        <li><Link href="https://www.facebook.com/" passHref><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="https://www.instagram.com/" passHref><i className="fab fa-instagram" /></Link></li>
+                        <li><Link href="https://www.linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link></li>
                     </ul>
                     </div>
                 </div>
