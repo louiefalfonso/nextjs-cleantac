@@ -85,18 +85,10 @@ export default function page() {
                   <ul className="list-wrap">
                     <li><Link href="/kitchen-cleaning" passHref>Kitchen Cleaning</Link></li>
                     <li><Link href="/window-cleaning" passHref className="active">Window Cleaning</Link></li>
-                    <li>
-                      <a href="#">Plumbing Service</a>
-                    </li>
-                    <li>
-                      <a href="#">Laundry Services</a>
-                    </li>
-                    <li>
-                      <a href="#">Office Cleaning</a>
-                    </li>
-                    <li>
-                      <a href="#">Toilet Cleaning</a>
-                    </li>
+                    <li><Link href="/plumbing-service" passHref>Plumbing Service</Link></li>
+                    <li><Link href="/laundry-service" passHref>Laundry Services</Link></li>
+                    <li><Link href="/office-cleaning" passHref>Office Cleaning</Link></li>
+                    <li><Link href="/toilet-cleaning" passHref >Toilet Cleaning</Link></li>
                   </ul>
                 </div>
               </div>

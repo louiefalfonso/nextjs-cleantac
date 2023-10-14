@@ -1,4 +1,5 @@
-import Link from "next/link";
+import React from 'react'
+
 export default function page() {
   return (
     <>
@@ -7,14 +8,14 @@ export default function page() {
         <div className="row">
           <div className="col-lg-12">
             <div className="breadcrumb-content">
-              <h2 className="title">Kitchen Cleaning</h2>
+              <h2 className="title">Plumbing Service</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link href="/" passHref>Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Kitchen Cleaning
+                    Plumbing Service
                   </li>
                 </ol>
               </nav>
@@ -29,7 +30,7 @@ export default function page() {
           <div className="col-lg-8 order-0 order-lg-2">
             <div className="services-details-wrap">
               <div className="services-details-thumb">
-                <img src="img/project/project_img06-450x360.webp" alt="" />
+                <img src="img/project/project_img12-450x360.webp" alt="" />
               </div>
               <div className="services-details-content">
                 <h2 className="title">We give the best Services</h2>
@@ -82,9 +83,9 @@ export default function page() {
                 <div className="services-cat-list">
                   <h4 className="title">All Services</h4>
                   <ul className="list-wrap">
-                    <li><Link href="/kitchen-cleaning" passHref className="active">Kitchen Cleaning</Link></li>
+                    <li><Link href="/kitchen-cleaning" passHref>Kitchen Cleaning</Link></li>
                     <li><Link href="/window-cleaning" passHref>Window Cleaning</Link></li>
-                    <li><Link href="/plumbing-service" passHref>Plumbing Service</Link></li>
+                    <li><Link href="/plumbing-service" passHref className="active">Plumbing Service</Link></li>
                     <li><Link href="/laundry-service" passHref>Laundry Services</Link></li>
                     <li><Link href="/office-cleaning" passHref>Office Cleaning</Link></li>
                     <li><Link href="/toilet-cleaning" passHref >Toilet Cleaning</Link></li>
