@@ -1,5 +1,5 @@
 export default function page() {
   return (
-    <div>kitchen cleaning page</div>
+    <>kitchen cleaning page</>
   )
 }

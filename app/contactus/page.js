@@ -2,6 +2,7 @@ import React from 'react'
 import Link
  from 'next/link'
 import ContactArea from '@/components/ContactArea'
+import BrandArea from '@/components/BrandArea'
 export default function page() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function page() {
       </div>
     </section>
     <ContactArea/>
+    <BrandArea/>
     </>
   )
 }
