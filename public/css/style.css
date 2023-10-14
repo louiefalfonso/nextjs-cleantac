@@ -2248,6 +2248,10 @@ label {
 	background: #FAFBFF;
 	color: var(--tg-paragraph-color);
 }
+.services-cat-list .list-wrap li a.active{
+	background: var(--tg-secondary-color);
+	color: var(--tg-white);
+}
 .services-cat-list .list-wrap li a:hover {
 	background: var(--tg-primary-color);
 	color: var(--tg-white);
