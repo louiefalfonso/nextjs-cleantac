@@ -179,7 +179,7 @@ export default function ProjectArea() {
                         <div className="col-lg-6">
                             <div className="project-item-two big-item">
                             <div className="project-thumb-two">
-                                <a href="project-details.html">
+                                <a href="#">
                                 <img
                                     src="img/project/h2_project__img02.jpg"
                                     alt=""
@@ -188,7 +188,7 @@ export default function ProjectArea() {
                             </div>
                             <div className="project-content-two">
                                 <h2 className="title">
-                                <a href="project-details.html">Home Cleaning Services</a>
+                                <a href="#">Home Cleaning Services</a>
                                 </h2>
                                 <p>
                                 Lorem ipsum dolor sit amet consectetur. Ut tellus
@@ -201,7 +201,7 @@ export default function ProjectArea() {
                         <div className="col-lg-6">
                             <div className="project-item-two small-item">
                             <div className="project-thumb-two">
-                                <a href="project-details.html">
+                                <a href="#">
                                 <img
                                     src="img/project/h2_project_img01.jpg"
                                     alt=""
@@ -210,7 +210,7 @@ export default function ProjectArea() {
                             </div>
                             <div className="project-content-two">
                                 <h2 className="title">
-                                <a href="project-details.html">
+                                <a href="#">
                                     Office Cleaning Services
                                 </a>
                                 </h2>
@@ -222,7 +222,7 @@ export default function ProjectArea() {
                             </div>
                             <div className="project-item-two small-item">
                             <div className="project-thumb-two">
-                                <a href="project-details.html">
+                                <a href="#">
                                 <img
                                     src="img/project/h2_project_img02.jpg"
                                     alt=""
@@ -231,7 +231,7 @@ export default function ProjectArea() {
                             </div>
                             <div className="project-content-two">
                                 <h2 className="title">
-                                <a href="project-details.html">Outdoor Cleaning</a>
+                                <a href="#">Outdoor Cleaning</a>
                                 </h2>
                                 <p>
                                 Lorem ipsum dolor sit consectetur. Ut tellus suspendisse

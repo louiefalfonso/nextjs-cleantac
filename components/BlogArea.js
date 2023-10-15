@@ -19,12 +19,12 @@ export default function BlogArea() {
             <div className="col-lg-6 col-md-8">
                 <div className="blog-item-two">
                     <div className="blog-thumb-two">
-                        <a href="blog-details.html">
+                        <a href="#">
                         <img src="img/blog/inner_blog_img01.jpg" alt="" />
                         </a>
                     </div>
                 <div className="blog-content-two">
-                    <a href="blog.html" className="tag">
+                    <a href="#" className="tag">
                     Kitchen
                     </a>
                     <div className="blog-meta">
@@ -35,16 +35,16 @@ export default function BlogArea() {
                         </li>
                         <li>
                         <i className="far fa-user" />
-                        <a href="blog.html">David Martin</a>
+                        <a href="#">David Martin</a>
                         </li>
                     </ul>
                     </div>
                     <h2 className="title">
-                    <a href="blog-details.html">
+                    <a href="#">
                         New Cleaning With Hydrogen at many Peroxide Tips
                     </a>
                     </h2>
-                    <a href="blog-details.html" className="btn btn-two">
+                    <a href="#" className="btn btn-two">
                     Read more
                     </a>
                 </div>
@@ -53,7 +53,7 @@ export default function BlogArea() {
             <div className="col-lg-6 col-md-8">
                 <div className="blog-item-two">
                 <div className="blog-thumb-two">
-                    <a href="blog-details.html">
+                    <a href="#">
                     <img src="img/blog/inner_blog_img02.jpg" alt="" />
                     </a>
                 </div>
@@ -69,16 +69,16 @@ export default function BlogArea() {
                         </li>
                         <li>
                         <i className="far fa-user" />
-                        <a href="blog.html">David Martin</a>
+                        <a href="#">David Martin</a>
                         </li>
                     </ul>
                     </div>
                     <h2 className="title">
-                    <a href="blog-details.html">
+                    <a href="#">
                         The “Flip and Fluff” Routine is the Best Thing
                     </a>
                     </h2>
-                    <a href="blog-details.html" className="btn btn-two">
+                    <a href="#" className="btn btn-two">
                     Read more
                     </a>
                 </div>

@@ -10,7 +10,7 @@ export default function ProjectsArea() {
                 <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="project-item inner-project-item">
                     <div className="project-thumb">
-                    <a href="project-details.html">
+                    <a href="#">
                         <img src="img/project/project_img01-450x360.webp" alt="" />
                     </a>
                     </div>
@@ -25,13 +25,13 @@ export default function ProjectsArea() {
                 <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="project-item inner-project-item">
                     <div className="project-thumb">
-                    <a href="project-details.html">
+                    <a href="#">
                         <img src="img/project/project_img02-450x360.webp" alt="" />
                     </a>
                     </div>
                     <div className="project-content">
                     <h2 className="title">
-                        <a href="project-details.html">Car Cleaning</a>
+                        <a href="#">Car Cleaning</a>
                     </h2>
                     <span>Car Cleaning</span>
                     </div>
@@ -40,13 +40,13 @@ export default function ProjectsArea() {
                 <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="project-item inner-project-item">
                     <div className="project-thumb">
-                    <a href="project-details.html">
+                    <a href="#">
                         <img src="img/project/project_img12-450x360.webp" alt="" />
                     </a>
                     </div>
                     <div className="project-content">
                     <h2 className="title">
-                        <a href="project-details.html">Plumbing Cleaning</a>
+                        <a href="#">Plumbing Cleaning</a>
                     </h2>
                     <span>Cleaning</span>
                     </div>
@@ -55,13 +55,13 @@ export default function ProjectsArea() {
                 <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="project-item inner-project-item">
                     <div className="project-thumb">
-                    <a href="project-details.html">
+                    <a href="#">
                         <img src="img/project/project_img06-450x360.webp" alt="" />
                     </a>
                     </div>
                     <div className="project-content">
                     <h2 className="title">
-                        <a href="project-details.html">Kitchen Cleaning</a>
+                        <a href="#">Kitchen Cleaning</a>
                     </h2>
                     <span>Cleaning</span>
                     </div>

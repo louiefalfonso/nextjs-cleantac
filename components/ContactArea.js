@@ -1,5 +1,4 @@
 import React from 'react'
-import BrandArea from './BrandArea'
 
 export default function ContactArea() {
   return (
